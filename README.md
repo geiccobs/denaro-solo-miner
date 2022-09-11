@@ -1,10 +1,10 @@
-# Denaro CPU pool miner
+# Denaro CPU solo miner
 
 ## Installation
 
 ```bash
-git clone https://github.com/geiccobs/denaro-pool-miner
-cd denaro-pool-miner
+git clone https://github.com/geiccobs/denaro-solo-miner
+cd denaro-solo-miner
 ```
 
 ### Compiling by source
@@ -18,26 +18,26 @@ go build
 
 ## Usage
 
-[Download latest binary](https://github.com/geiccobs/denaro-pool-miner/releases/latest) according to your system architecture. 
+[Download latest binary](https://github.com/geiccobs/denaro-solo-miner/releases/latest) according to your system architecture. 
  
-Use `./pool-miner-{yourarchitecture} -help` to see the full list of arguments. 
+Use `./solo-miner-{yourarchitecture} -help` to see the full list of arguments. 
  
 Notice: `share_difficulty` should be adjusted according to your hashrate: if you see a lot of shares accepted, increment it.
 
 ### Running on Linux
 
 ```bash
-./pool-miner-linux64 -address youraddress -workers corescount -share_difficulty 6
+./solo-miner-linux64 -address youraddress -workers corescount -share_difficulty 6
 ```
 
 ### Running on Windows
 
 ```bash
-start pool-miner-win64.exe -address youraddress -workers corescount -share_difficulty 6
+start solo-miner-win64.exe -address youraddress -workers corescount -share_difficulty 6
 ```
 
 ### Running on MacOS
 
 ```bash
-./pool-miner-macos-amd64 -address youraddress -workers corescount -share_difficulty 6
+./solo-miner-macos-amd64 -address youraddress -workers corescount -share_difficulty 6
 ```
