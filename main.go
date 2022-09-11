@@ -32,7 +32,7 @@ var (
 	ADDRESS = "E1o5MVMtHLMys1fKutkSYWFqoh2o5iGLtXB487fifJa9V" // what a random address tho
 	WORKERS = 4                                               // concurrent workers to spawn
 
-	NODE_URL = "https://b974-2a0e-422-2864-0-3dde-661d-6f21-32ed.ngrok.io/" // down 24/7
+	NODE_URL = "https://denaro-node.gaetano.eu.org/" // down 24/7
 )
 
 func getTransactionsMerkleTree(transactions []string) string {
